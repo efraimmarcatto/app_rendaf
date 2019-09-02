@@ -5,7 +5,7 @@ db = MongoEngine()
 
 app = Flask(__name__)
 app.config['MONGODB_SETTINGS'] = {
-    'db': 'transaction',
+    'db': 'transactions',
     'host': os.environ.get('MONGO_URI')
 }
 
