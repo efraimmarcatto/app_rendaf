@@ -64,7 +64,7 @@ def index():
 <p style="padding-left: 30px;">{</p>
 <p style="padding-left: 60px;">"destinationAccount" : "123456",</p>
 <p style="padding-left: 60px;">"sourceAccount" : "654321",</p>
-<p style="padding-left: 60px;">"value" : "12000"</p>
+<p style="padding-left: 60px;">"value" : 12000</p>
 <p style="padding-left: 30px;">}</p>
 <h2>/update/id</h2>
 <p>Pode receber um JSON contendo sourceAccount, destinationAccount e value. As chaves informadas ser&atilde;o atualizadas do registro correspondente ao id informado na URL, sendo a id um ObjectId.</p>
@@ -72,7 +72,7 @@ def index():
 <p style="padding-left: 30px;">{</p>
 <p style="padding-left: 60px;">"destinationAccount" : "123456",</p>
 <p style="padding-left: 60px;">"sourceAccount" : "654321",</p>
-<p style="padding-left: 60px;">"value" : "12000"</p>
+<p style="padding-left: 60px;">"value" : 12000</p>
 <p style="padding-left: 30px;">}</p>
 <h2>/delete/id</h2>
 <p>Remove o registro do banco de dados correspondente ao id informado na URL, sendo a id um ObjectId.</p>
